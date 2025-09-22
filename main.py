@@ -48,7 +48,7 @@ def create_cards(message):
     username = message.chat.username
 
     word_list = [('Cat', 'Кошка'), ('Dog', 'Собака'), ('House', 'Дом'), ('Fox', 'Лиса'), ('Pussy', 'Киска'),
-                 ('Cup', 'Чашка'), ('Coffee', 'Кофе'), ('Tea', 'Чай'), ('She', 'Она'), ('Love', 'Lubov')]
+                 ('Cup', 'Чашка'), ('Coffee', 'Кофе'), ('Tea', 'Чай'), ('She', 'Она'), ('Love', 'Любовь')]
 
     for word in word_list:
         fill_dictionary(word)
